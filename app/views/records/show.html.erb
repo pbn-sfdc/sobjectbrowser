@@ -1,0 +1,11 @@
+<div data-role="page" id="record_detail<%= @record.Id %>" data-add-back-btn="true">
+    <div data-role="header">
+        <h1><%= @record.Name %></h1>
+    </div>
+    <div class="ui-grid-a">
+        <% @record.attributes.each do |k, v| %>
+            <div class="ui-block-a"><strong><%=k%></strong></div>
+            <div class="ui-block-b"><%= v %></div>
+        <% end %>
+    </div>
+</div>

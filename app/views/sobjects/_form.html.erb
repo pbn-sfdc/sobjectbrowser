@@ -1,0 +1,25 @@
+<%= form_for(@sobject) do |f| %>
+  <% if @sobject.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@sobject.errors.count, "error") %> prohibited this sobject from being saved:</h2>
+
+      <ul>
+      <% @sobject.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Name %><br />
+    <%= f.text_field :Name %>
+  </div>
+  <div class="field">
+    <%= f.label :RecordCount %><br />
+    <%= f.text_field :RecordCount %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,14 @@
+<div data-role="page" id="sobjects_index">
+    <div data-role="header">
+        <h1>SObjects</h1>
+    </div>
+
+    <ul data-role="listview" data-theme="g">
+        <% @sobjects.each do |sobject| %>
+            <li>
+                <%= link_to sobject[:name], sobject_records_path(sobject[:name]) %>
+                <span class="ui-li-count"><%= sobject[:count] %></span>
+            </li>
+        <% end %>
+    </ul>
+</div>

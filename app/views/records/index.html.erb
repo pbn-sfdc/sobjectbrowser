@@ -1,0 +1,16 @@
+<div data-role="page" id="records_of_<%= @class_name %>" data-add-back-btn="true">
+    <div data-role="header">
+        <h1><%= @class_name %></h1>
+    </div>
+    <% if @klass.attributes.include?("Name") %>
+        <ul data-role="listview" data-theme="g">
+            <% @records.each do |r| %>
+                <li>
+                    <%= link_to r.Name, sobject_record_path(@class_name, r) %>
+                </li>
+            <% end %>
+        </ul>
+    <% else %>
+        <p>The Name attribute is not present on <%= @class_name %> sobject.</p>
+    <% end %>
+</div>
