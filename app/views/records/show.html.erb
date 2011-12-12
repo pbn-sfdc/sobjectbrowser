@@ -4,8 +4,10 @@
     </div>
     <div class="ui-grid-a">
         <% @record.attributes.each do |k, v| %>
-            <div class="ui-block-a"><strong><%=k%></strong></div>
-            <div class="ui-block-b"><%= v %></div>
+            <div data-role="collapsible" data-collapsed="false">
+                <h3><%=k%></h3>
+                <p><%= v %></p>
+            </div>
         <% end %>
     </div>
 </div>
