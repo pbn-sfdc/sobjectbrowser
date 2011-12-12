@@ -1,4 +1,6 @@
 Sobjectbrowser::Application.routes.draw do
+  root :to => "sobjects#index"
+
   resources :sobjects, :only => [:index] do
     resources :records, :only => [:index, :show]
   end
