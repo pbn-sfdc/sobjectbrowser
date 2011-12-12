@@ -7,6 +7,7 @@ gem 'rails', '3.1.3'
 
 gem 'databasedotcom'
 gem 'databasedotcom-rails', :git => 'git://github.com/pbn-lumen/databasedotcom-rails.git'
+gem 'therubyracer'
 
 group :production do
   gem 'pg'
