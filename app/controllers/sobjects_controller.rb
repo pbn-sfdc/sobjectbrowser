@@ -3,8 +3,12 @@ class SobjectsController < ApplicationController
   # GET /sobjects
   # GET /sobjects.json
   def index
-    sobject_names = dbdc_client.list_sobjects
+    # Commented out following list of sobjects for performance reasons.
+    # Hardcoding SObject list to improve performance
+    #sobject_names = dbdc_client.list_sobjects
     #dbdc_client.debugging = true
+
+    sobject_names = ['Profile', 'UserLicense', 'User', 'Organization', 'Group']
     @sobjects = []
 
     sobject_names.each do |name|
