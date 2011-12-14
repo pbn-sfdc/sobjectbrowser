@@ -1,4 +1,5 @@
 == Welcome to SObjectBrowser Rails App.
 
 SObjectBrowser is a rails app that uses database-com heroku addon and lets you
-browse the available SObjects in a provisioned database.com Org. It uses JQuery Mobile for UI.
+browse the available SObjects (limited to 'Profile', 'UserLicense', 'User', 'Organization', 'Group')
+in a provisioned database.com Org. It uses JQuery Mobile for UI.
