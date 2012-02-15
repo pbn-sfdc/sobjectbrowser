@@ -8,13 +8,11 @@ class ApplicationController < ActionController::Base
       if ENV['DATABASE_COM_URL']
         @dbdc_client = Databasedotcom::Client.new
 
-        @dbdc_client.debugging = true
+        @dbdc_client.debugging = ENV['DATABASEDOTCOM_DEBUGGING']
         password = @dbdc_client.password
-        username = @dbdc_client.username
         stoken = ENV['DATABASE_COM_SECURITY_TOKEN']
         pwd_stoken = "#{password}#{stoken}"
         @dbdc_client.password = pwd_stoken
-        puts "Using [#{username}][#{password}] to authenticate"
         @dbdc_client.authenticate
       else
         puts "DATABASE_COM_URL environment variable is not set"
