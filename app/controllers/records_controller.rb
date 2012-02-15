@@ -1,5 +1,5 @@
 class RecordsController < ApplicationController
-  include Databasedotcom::Rails::Controller
+
   # GET /records
   # GET /records.json
   def index

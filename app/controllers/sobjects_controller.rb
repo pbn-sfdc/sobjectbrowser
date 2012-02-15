@@ -1,5 +1,5 @@
 class SobjectsController < ApplicationController
-  include Databasedotcom::Rails::Controller
+
   # GET /sobjects
   # GET /sobjects.json
   def index
