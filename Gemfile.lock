@@ -1,10 +1,3 @@
-GIT
-  remote: git://github.com/pbn-lumen/databasedotcom-rails.git
-  revision: 4aee6a443503b15bb47dfe5e0b45d788a3447efb
-  specs:
-    databasedotcom-rails (1.0.0)
-      databasedotcom
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -129,7 +122,6 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.1.1)
   databasedotcom
-  databasedotcom-rails!
   jquery-rails
   pg
   rails (= 3.1.3)
