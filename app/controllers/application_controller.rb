@@ -12,12 +12,13 @@ class ApplicationController < ActionController::Base
         password = @dbdc_client.password
         username = @dbdc_client.username
         stoken = ENV['DATABASE_COM_SECURITY_TOKEN']
-        pwd_stoken = "#{@dbdc_client.password}#{stoken}"
-        password = pwd_stoken
+        pwd_stoken = "#{password}#{stoken}"
+        @dbdc_client.password = pwd_stoken
         puts "Using [#{username}][#{password}] to authenticate"
-        @dbdc_client.authenticate(:username => username, :password => password)
+        @dbdc_client.authenticate
+      else
+        puts "DATABASE_COM_URL environment variable is not set"
       end
-      puts "DATABASE_COM_URL environment variable is not set"
     end
 
     @dbdc_client
