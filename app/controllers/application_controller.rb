@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
       if ENV['DATABASE_COM_URL']
         @dbdc_client = Databasedotcom::Client.new
 
-        @dbdc_client.debug = true
+        @dbdc_client.debugging = true
         password = @dbdc_client.password
         username = @dbdc_client.username
         stoken = ENV['DATABASE_COM_SECURITY_TOKEN']
