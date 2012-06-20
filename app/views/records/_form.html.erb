@@ -10,7 +10,12 @@
       </ul>
     </div>
   <% end %>
-
+  <% @record.attributes.each do |a| %>
+    <div class="field">
+    <%= f.label :#{@record.label_for(a)} %><br />
+    <%= f.text_field :#{a} %>
+  </div>
+  <% end %>
   <div class="actions">
     <%= f.submit %>
   </div>

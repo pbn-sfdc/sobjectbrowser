@@ -30,7 +30,8 @@ class RecordsController < ApplicationController
   # GET /records/new
   # GET /records/new.json
   def new
-    @record = Record.new
+    sobject_name = params[:sobject_id]
+    @record = dbdc_client.materialize(sobject_name)
 
     respond_to do |format|
       format.html # new.html.erb
