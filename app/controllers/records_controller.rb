@@ -58,8 +58,8 @@ class RecordsController < ApplicationController
     @klass = dbdc_client.materialize(@class_name)
     @record = @klass.new(params[:record])
     @record['OwnerId'] = dbdc_client.user_id
-    @record['IsConverted'] = false
-    @record['IsUnreadByOwner'] = false
+#    @record['IsConverted'] = false
+#    @record['IsUnreadByOwner'] = false
 
     respond_to do |format|
       if @record.save
