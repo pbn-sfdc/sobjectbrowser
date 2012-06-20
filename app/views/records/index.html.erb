@@ -1,5 +1,6 @@
-<div data-role="page" id="records_of_<%= @class_name %>" data-add-back-btn="true">
+<div data-role="page" id="records_of_<%= @class_name %>">
     <div data-role="header">
+        <%= link_to 'SObjects', sobjects_path, "data-icon" => "arrow-l", "class" => "ui-btn-left" %>
         <h1><%= @class_name %></h1>
         <%= link_to 'Add', new_sobject_record_path, "data-icon" => "plus", "class" => "ui-btn-right" %>
     </div>
