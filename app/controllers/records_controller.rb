@@ -66,6 +66,12 @@ class RecordsController < ApplicationController
         format.html { redirect_to sobject_record_path(@class_name, @record), notice: 'Record was successfully created.' }
         format.json { render json: @record, status: :created, location: @record }
       else
+        @updateable_attributes = []
+        @record.attributes.each do |a|
+          if @klass.updateable?(a[0])
+            @updateable_attributes << a[0]
+          end
+        end
         format.html { render action: "new" }
         format.json { render json: @record.errors, status: :unprocessable_entity }
       end
