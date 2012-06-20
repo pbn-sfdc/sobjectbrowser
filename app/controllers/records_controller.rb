@@ -64,27 +64,17 @@ class RecordsController < ApplicationController
     respond_to do |format|
       begin
         if @record.save
-          format.html { redirect_to sobject_record_path(@class_name, @record), notice: 'Record was successfully created.' }
+          format.html { redirect_to sobject_records_path(@class_name), notice: 'Record was successfully created.' }
           format.json { render json: @record, status: :created, location: @record }
         else
-          @updateable_attributes = []
-          @record.attributes.each do |a|
-            if @klass.updateable?(a[0])
-              @updateable_attributes << a[0]
-            end
-          end
+          set_updateable_attributes()
           format.html { render action: "new" }
           format.json { render json: @record.errors, status: :unprocessable_entity }
         end
       rescue Databasedotcom::SalesForceError => e
+        set_updateable_attributes()
         @errors = []
         @errors << e
-        @updateable_attributes = []
-        @record.attributes.each do |a|
-          if @klass.updateable?(a[0])
-            @updateable_attributes << a[0]
-          end
-        end
         format.html { render action: "new" }
         format.json { render json: @errors, status: :unprocessable_entity }
       end
@@ -117,6 +107,17 @@ class RecordsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to records_url }
       format.json { head :ok }
+    end
+  end
+
+  private
+
+  def set_updateable_attributes
+    @updateable_attributes = []
+    @record.attributes.each do |a|
+      if @klass.updateable?(a[0])
+        @updateable_attributes << a[0]
+      end
     end
   end
 end

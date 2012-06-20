@@ -84,7 +84,7 @@
           <file leaf-file-name="records_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="93" column="11" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.6935649">
+                <state line="66" column="68" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.52502555">
                   <folding />
                 </state>
               </provider>
@@ -624,7 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="11" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.6935649">
+        <state line="66" column="68" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.52502555">
           <folding />
         </state>
       </provider>
