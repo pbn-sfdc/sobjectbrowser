@@ -1,12 +1,12 @@
 
 <form action='<%= sobject_records_path(@parent) %>' method="post">
-    <% if @record.respond_to?("errors") && @record.errors.any? %>
+    <% if !@errors.empty? %>
     <div id="error_explanation">
-        <h2><%= pluralize(@record.errors.count, "error") %> prohibited this record from being saved:</h2>
+        <h2><%= pluralize(@errors.length, "error") %> prohibited this record from being saved:</h2>
 
         <ul>
-            <% @record.errors.full_messages.each do |msg| %>
-            <li><%= msg %></li>
+            <% @errors.each do |error| %>
+            <li><%= error.message %></li>
             <% end %>
         </ul>
     </div>
