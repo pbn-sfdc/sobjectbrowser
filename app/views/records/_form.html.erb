@@ -1,11 +1,24 @@
-<%= form_tag (create_sobject_record_path, :method => :post) do %>
-  <% @record.attributes.each do |field| %>
-    <div class="field">
-    <%= label_tag(field.to_sym, field)%>
-    <%= text_field_tag(field.to_sym)%> <br/>
-   </div>
-  <% end %>
-  <div class="actions">
-    <%= submit_tag("Save") %>
-  </div>
-<% end %>
+
+<form action="<%= create_sobject_record_path %>" method="post">
+    <% @record.attributes.each do |field| %>
+      <div class="field">
+      <%= label_tag(field.to_sym, field)%>
+      <%= text_field_tag(field.to_sym)%> <br/>
+     </div>
+    <% end %>
+    <div class="actions">
+      <%= submit_tag("Save") %>
+    </div>
+</form>
+
+<!--<%= form_tag (create_sobject_record_path, :method => :post) do %>-->
+  <!--<% @record.attributes.each do |field| %>-->
+    <!--<div class="field">-->
+    <!--<%= label_tag(field.to_sym, field)%>-->
+    <!--<%= text_field_tag(field.to_sym)%> <br/>-->
+   <!--</div>-->
+  <!--<% end %>-->
+  <!--<div class="actions">-->
+    <!--<%= submit_tag("Save") %>-->
+  <!--</div>-->
+<!--<% end %>-->
