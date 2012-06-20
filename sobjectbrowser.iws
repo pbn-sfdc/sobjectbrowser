@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c283ad-45f9-4c2e-845b-b9214e0c50d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/index.html.erb" afterPath="$PROJECT_DIR$/app/views/records/index.html.erb" />
     </list>
     <ignored path="sobjectbrowser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="597" selection-end="597" vertical-scroll-proportion="-9.375">
+            <state line="15" column="50" selection-start="612" selection-end="612" vertical-scroll-proportion="0.36">
               <folding />
             </state>
           </provider>
@@ -106,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="62" selection-start="181" selection-end="181" vertical-scroll-proportion="0.092449926">
+            <state line="4" column="62" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,9 +164,9 @@
         <option value="$PROJECT_DIR$/app/controllers/sobjects_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/records/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/records_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/records/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/records/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/records/index.html.erb" />
       </list>
     </option>
   </component>
@@ -595,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="597" selection-end="597" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="-5.0">
@@ -625,7 +618,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="62" selection-start="181" selection-end="181" vertical-scroll-proportion="0.092449926">
+        <state line="4" column="62" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="612" selection-end="612" vertical-scroll-proportion="0.36">
           <folding />
         </state>
       </provider>
