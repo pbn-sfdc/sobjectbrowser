@@ -1,4 +1,4 @@
-<%= form_for(@record) do |f| %>
+<%= form_for [@parent, @record] do |f| %>
   <% if @record.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@record.errors.count, "error") %> prohibited this record from being saved:</h2>
