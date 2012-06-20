@@ -10,10 +10,9 @@
       </ul>
     </div>
   <% end %>
-  <% @record.attributes.each do |a| %>
+  <% @record.attributes.each do |field| %>
     <div class="field">
-    <%= f.label :@record.label_for(a) %><br />
-    <%= f.text_field :a %>
+    <%= f.send(@record.field_type(field).to_sym, field)%> <br/>
    </div>
   <% end %>
   <div class="actions">
