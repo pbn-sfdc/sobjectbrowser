@@ -1,6 +1,6 @@
 
 <form action='<%= sobject_records_path(@parent) %>' method="post">
-    <% if !@errors.empty? %>
+    <% if !@errors.nil? %>
     <div id="error_explanation">
         <h2><%= pluralize(@errors.length, "error") %> prohibited this record from being saved:</h2>
 
