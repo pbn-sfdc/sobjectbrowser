@@ -1,15 +1,4 @@
-<%= form_tag (create_sobject_record_path, :method => post) do %>
-  <% if @record.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@record.errors.count, "error") %> prohibited this record from being saved:</h2>
-
-      <ul>
-      <% @record.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
+<%= form_tag (create_sobject_record_path, :method => "post") do %>
   <% @record.attributes.each do |field| %>
     <div class="field">
     <%= label_tag(field.to_sym, field)%>
