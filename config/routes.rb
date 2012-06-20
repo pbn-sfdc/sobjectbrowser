@@ -2,7 +2,7 @@ Sobjectbrowser::Application.routes.draw do
   root :to => "sobjects#index"
 
   resources :sobjects, :only => [:index] do
-    resources :records, :only => [:index, :show]
+    resources :records, :only => [:index, :show, :new, :create]
   end
 
   # The priority is based upon order of creation:
