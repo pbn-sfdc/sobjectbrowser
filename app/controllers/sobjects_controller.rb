@@ -1,3 +1,5 @@
+require 'parallel'
+
 class SobjectsController < ApplicationController
 
   # GET /sobjects
@@ -11,14 +13,19 @@ class SobjectsController < ApplicationController
     sobject_names = ['Profile', 'UserLicense', 'User', 'Organization', 'Group']
     @sobjects = []
 
-    sobject_names.each do |name|
-      begin
-        klass = dbdc_client.materialize(name)
-        @sobjects << {:name => name, :count => klass.count}
-      rescue Databasedotcom::SalesForceError => e
-        logger.warn (e)
-      end
-    end
+#    sobject_names.each do |name|
+#      begin
+#        klass = dbdc_client.materialize(name)
+#        @sobjects << {:name => name, :count => klass.count}
+#      rescue Databasedotcom::SalesForceError => e
+#        logger.warn (e)
+#      end
+#    end
+
+    results = Parallel.map(sobject_names, :in_threads=>10) {|name|
+      klass = dbdc_client.materialize(name)
+      @sobjects << {:name => name, :count => klass.count}
+    }
 
     @sobjects = @sobjects.sort {|x, y| y[:count] <=> x[:count]}
 
