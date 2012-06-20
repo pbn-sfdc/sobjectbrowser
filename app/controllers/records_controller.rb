@@ -71,7 +71,7 @@ class RecordsController < ApplicationController
         @errors = []
         @errors << e
 #        format.html { render action: "new" }
-        format.html { redirect_to sobject_records_path(@class_name) }
+        format.html { redirect_to new_sobject_record_path(@class_name, :errors => @errors) }
         format.json { render json: @errors, status: :unprocessable_entity }
       end
 
