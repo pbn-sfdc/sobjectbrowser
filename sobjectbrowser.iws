@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c283ad-45f9-4c2e-845b-b9214e0c50d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/records_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/records_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/records/_form.html.erb" />
     </list>
     <ignored path="sobjectbrowser.iws" />
@@ -76,7 +75,7 @@
           <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/records/_form.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="7" selection-start="705" selection-end="705" vertical-scroll-proportion="0.33846155">
+                <state line="2" column="43" selection-start="111" selection-end="111" vertical-scroll-proportion="0.03076923">
                   <folding />
                 </state>
               </provider>
@@ -616,7 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="705" selection-end="705" vertical-scroll-proportion="0.33846155">
+        <state line="2" column="43" selection-start="111" selection-end="111" vertical-scroll-proportion="0.03076923">
           <folding />
         </state>
       </provider>
