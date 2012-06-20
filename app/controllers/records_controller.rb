@@ -33,7 +33,7 @@ class RecordsController < ApplicationController
     @class_name = params[:sobject_id]
     @klass = dbdc_client.materialize(@class_name)
     @record = @klass.new
-    self.set_updateable_attributes()
+    set_updateable_attributes()
 
     respond_to do |format|
       format.html # new.html.erb
@@ -62,12 +62,12 @@ class RecordsController < ApplicationController
           format.html { redirect_to sobject_records_path(@class_name), notice: 'Record was successfully created.' }
           format.json { render json: @record, status: :created, location: @record }
         else
-          self.set_updateable_attributes()
+          set_updateable_attributes()
           format.html { render action: "new" }
           format.json { render json: @record.errors, status: :unprocessable_entity }
         end
       rescue Databasedotcom::SalesForceError => e
-        self.set_updateable_attributes()
+        set_updateable_attributes()
         @errors = []
         @errors << e
         format.html { render action: "new" }
@@ -105,7 +105,7 @@ class RecordsController < ApplicationController
     end
   end
 
-  private
+  protected
 
   def set_updateable_attributes
     @updateable_attributes = []

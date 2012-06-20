@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c283ad-45f9-4c2e-845b-b9214e0c50d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/index.html.erb" afterPath="$PROJECT_DIR$/app/views/records/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/records_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/records_controller.rb" />
     </list>
     <ignored path="sobjectbrowser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,10 +63,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="40" selection-start="127" selection-end="127" vertical-scroll-proportion="0.03141361">
+                <state line="2" column="40" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.25">
                   <folding />
                 </state>
               </provider>
@@ -81,10 +81,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="records_controller.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="records_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="69" column="13" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.0">
+                <state line="35" column="4" selection-start="809" selection-end="809" vertical-scroll-proportion="0.33707866">
                   <folding />
                 </state>
               </provider>
@@ -145,10 +145,10 @@
         <option value="$PROJECT_DIR$/app/controllers/sobjects_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/records/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/records_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/records/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/records/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/records/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/records_controller.rb" />
       </list>
     </option>
   </component>
@@ -604,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="13" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sobjects/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -648,7 +641,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="127" selection-end="127" vertical-scroll-proportion="0.03141361">
+        <state line="2" column="40" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="4" selection-start="809" selection-end="809" vertical-scroll-proportion="0.33707866">
           <folding />
         </state>
       </provider>
