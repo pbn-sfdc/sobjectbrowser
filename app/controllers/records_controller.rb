@@ -35,7 +35,7 @@ class RecordsController < ApplicationController
     @record = @parent.new
     @updateable_attributes = []
     @record.attributes.each do |a|
-      if @parent.updateable(a[0])
+      if @parent.updateable?(a[0])
         @updateable_attributes << a[0]
       end
     end
