@@ -31,11 +31,11 @@ class RecordsController < ApplicationController
   # GET /records/new.json
   def new
     @class_name = params[:sobject_id]
-    @parent = dbdc_client.materialize(@class_name)
-    @record = @parent.new
+    @klass = dbdc_client.materialize(@class_name)
+    @record = @klass.new
     @updateable_attributes = []
     @record.attributes.each do |a|
-      if @parent.updateable?(a[0])
+      if @klass.updateable?(a[0])
         @updateable_attributes << a[0]
       end
     end
@@ -54,7 +54,12 @@ class RecordsController < ApplicationController
   # POST /records
   # POST /records.json
   def create
-    @record = Record.new(params[:record])
+    @class_name = params[:sobject_id]
+    @klass = dbdc_client.materialize(@class_name)
+    @record = @klass.new(params[:record])
+    @record['OwnerId'] = dbdc_client.user_id
+    @record['IsConverted'] = false
+    @record['IsUnreadByOwner'] = false
 
     respond_to do |format|
       if @record.save
