@@ -1,5 +1,5 @@
-<div data-role="header">
-   New Record form
+<div data-role="header" id="new_record_for_<%= @class_name %>" data-add-back-btn="true">
+   <h1>New <%= @class_name %> Record</h1>
 </div>
 <div data-role="content">
    <%= render 'form' %>

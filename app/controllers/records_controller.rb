@@ -30,8 +30,8 @@ class RecordsController < ApplicationController
   # GET /records/new
   # GET /records/new.json
   def new
-    sobject_name = params[:sobject_id]
-    @parent = dbdc_client.materialize(sobject_name)
+    @class_name = params[:sobject_id]
+    @parent = dbdc_client.materialize(@class_name)
     @record = @parent.new
     @updateable_attributes = []
     @record.attributes.each do |a|

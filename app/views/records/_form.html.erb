@@ -3,7 +3,7 @@
     <% @updateable_attributes.each do |attr| %>
       <div class="field">
       <%= label_tag(@parent.label_for(attr).to_sym, attr)%>
-      <%= text_field_tag(attr.to_sym)%> <br/>
+      <%= text_field_tag("record[#{attr.to_sym}]")%> <br/>
      </div>
     <% end %>
     <div class="actions">
