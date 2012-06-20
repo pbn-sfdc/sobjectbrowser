@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c283ad-45f9-4c2e-845b-b9214e0c50d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sobjects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sobjects_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sobjectbrowser.iml" afterPath="$PROJECT_DIR$/sobjectbrowser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sobjectbrowser.iws" afterPath="$PROJECT_DIR$/sobjectbrowser.iws" />
     </list>
     <ignored path="sobjectbrowser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +64,16 @@
       <file leaf-file-name="sobjects_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/sobjects_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="24" selection-start="747" selection-end="747" vertical-scroll-proportion="0.5381166">
+            <state line="11" column="5" selection-start="395" selection-end="395" vertical-scroll-proportion="0.24663678">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -364,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="14" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
@@ -378,9 +376,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sobjects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="24" selection-start="747" selection-end="747" vertical-scroll-proportion="0.5381166">
+        <state line="11" column="5" selection-start="395" selection-end="395" vertical-scroll-proportion="0.24663678">
           <folding />
         </state>
       </provider>
