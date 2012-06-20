@@ -2,8 +2,8 @@
 <form action='<%= sobject_records_path(@parent) %>' method="post">
     <% @record.attributes.each do |attr| %>
       <div class="field">
-      <%= label_tag(attr.to_sym, attr)%>
-      <%= text_field_tag(attr.to_sym)%> <br/>
+      <%= label_tag(attr[0].to_sym, attr[0])%>
+      <%= text_field_tag(attr[0].to_sym)%> <br/>
      </div>
     <% end %>
     <div class="actions">
