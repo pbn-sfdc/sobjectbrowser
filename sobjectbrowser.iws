@@ -66,7 +66,7 @@
           <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="84" selection-start="672" selection-end="672" vertical-scroll-proportion="-10.0">
+                <state line="9" column="75" selection-start="460" selection-end="495" vertical-scroll-proportion="-5.625">
                   <folding />
                 </state>
               </provider>
@@ -84,7 +84,16 @@
           <file leaf-file-name="records_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="62" column="36" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.8596838">
+                <state line="65" column="74" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.7057057">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/records/show.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
                   <folding />
                 </state>
               </provider>
@@ -555,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/records/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="62" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
@@ -590,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="84" selection-start="672" selection-end="672" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="26" selection-start="168" selection-end="168" vertical-scroll-proportion="-2.5">
@@ -604,9 +599,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/records/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="75" selection-start="460" selection-end="495" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="36" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.8596838">
+        <state line="65" column="74" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.7057057">
           <folding />
         </state>
       </provider>
