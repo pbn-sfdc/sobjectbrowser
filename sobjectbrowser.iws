@@ -84,7 +84,7 @@
           <file leaf-file-name="records_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="4" selection-start="809" selection-end="809" vertical-scroll-proportion="0.33707866">
+                <state line="73" column="67" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.6741573">
                   <folding />
                 </state>
               </provider>
@@ -124,7 +124,7 @@
           <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/records/new.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="98" selection-start="64" selection-end="162" vertical-scroll-proportion="0.015384615">
+                <state line="9" column="89" selection-start="303" selection-end="303" vertical-scroll-proportion="0.13846155">
                   <folding />
                 </state>
               </provider>
@@ -632,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/records/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="98" selection-start="64" selection-end="162" vertical-scroll-proportion="0.015384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="40" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.25">
@@ -646,9 +639,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/records/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="89" selection-start="303" selection-end="303" vertical-scroll-proportion="0.13846155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="4" selection-start="809" selection-end="809" vertical-scroll-proportion="0.33707866">
+        <state line="73" column="67" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.6741573">
           <folding />
         </state>
       </provider>

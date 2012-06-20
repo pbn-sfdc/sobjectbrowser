@@ -70,7 +70,8 @@ class RecordsController < ApplicationController
         set_updateable_attributes()
         @errors = []
         @errors << e
-        format.html { render action: "new" }
+#        format.html { render action: "new" }
+        format.html { redirect_to sobject_records_path(@class_name) }
         format.json { render json: @errors, status: :unprocessable_entity }
       end
 
