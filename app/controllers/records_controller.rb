@@ -33,6 +33,12 @@ class RecordsController < ApplicationController
     sobject_name = params[:sobject_id]
     @parent = dbdc_client.materialize(sobject_name)
     @record = @parent.new
+    @updateable_attributes = []
+    @record.attributes.each do |a|
+      if @parent.updateable(a[0])
+        @updateable_attributes << a[0]
+      end
+    end
 
     respond_to do |format|
       format.html # new.html.erb
