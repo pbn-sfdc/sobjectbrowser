@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c283ad-45f9-4c2e-845b-b9214e0c50d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/_error.html.erb" afterPath="$PROJECT_DIR$/app/views/records/_error.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/records_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/records_controller.rb" />
     </list>
     <ignored path="sobjectbrowser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,19 +72,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_error.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="_error.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/records/_error.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="2" selection-start="550" selection-end="550" vertical-scroll-proportion="0.24615385">
+                <state line="16" column="2" selection-start="550" selection-end="550" vertical-scroll-proportion="-10.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="records_controller.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="records_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="72" column="47" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
+                <state line="55" column="0" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.3753754">
                   <folding />
                 </state>
               </provider>
@@ -135,8 +135,8 @@
         <option value="$PROJECT_DIR$/app/views/records/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/records/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/records/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/records_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/records/_error.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/records_controller.rb" />
       </list>
     </option>
   </component>
@@ -627,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="47" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="10" selection-start="62" selection-end="338" vertical-scroll-proportion="0.07692308">
@@ -643,7 +636,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/_error.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="550" selection-end="550" vertical-scroll-proportion="0.24615385">
+        <state line="16" column="2" selection-start="550" selection-end="550" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.3753754">
           <folding />
         </state>
       </provider>
