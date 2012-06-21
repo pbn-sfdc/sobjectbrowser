@@ -1,12 +1,17 @@
-<h1>Errors</h1>
-<% if !@errors.nil? %>
-<div id="error_explanation">
-    <h2><%= pluralize(@errors.length, "error") %> prohibited this record from being saved:</h2>
+<div data-role="page" id="records_of_<%= @class_name %>">
+    <div data-role="header">
+        <h1>Errors</h1>
+        <%= link_to 'Back', new_sobject_record_path, "data-icon" => "arrow-l", "class" => "ui-btn-left" %>
+    </div>
+    <% if !@errors.nil? %>
+    <div id="error_explanation">
+        <h2><%= pluralize(@errors.length, "error") %> prohibited this record from being saved:</h2>
 
-    <ul>
-        <% @errors.each do |error| %>
-        <li><%= error.message %></li>
-        <% end %>
-    </ul>
+        <ul>
+            <% @errors.each do |error| %>
+            <li><%= error.message %></li>
+            <% end %>
+        </ul>
+    </div>
+    <% end %>
 </div>
-<% end %>
