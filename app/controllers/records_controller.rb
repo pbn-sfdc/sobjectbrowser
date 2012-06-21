@@ -51,10 +51,13 @@ class RecordsController < ApplicationController
   def create
     @class_name = params[:sobject_id]
     @klass = dbdc_client.materialize(@class_name)
-    @record = @klass.new(params[:record])
-#    @record['OwnerId'] = dbdc_client.user_id
-##    @record['IsConverted'] = false
-##    @record['IsUnreadByOwner'] = false
+
+    @record = @klass.new(@klass.coerce_params(params[:record]))
+    if @record.respond_to?(:OwnerId)
+      @record['OwnerId'] = dbdc_client.user_id
+    end
+#    @record['IsConverted'] = false
+#    @record['IsUnreadByOwner'] = false
 
     respond_to do |format|
       begin
