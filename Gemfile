@@ -5,7 +5,7 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'databasedotcom', :git => 'git@github.com:geomuck/databasedotcom.git'
+gem 'databasedotcom', :git => 'git://github.com/geomuck/databasedotcom.git'
 #gem 'databasedotcom-rails', :git => 'git://github.com/pbn-lumen/databasedotcom-rails.git'
 gem 'therubyracer'
 #gem 'parallel'

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8c283ad-45f9-4c2e-845b-b9214e0c50d9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sobjectbrowser.iml" afterPath="$PROJECT_DIR$/sobjectbrowser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sobjectbrowser.iws" afterPath="$PROJECT_DIR$/sobjectbrowser.iws" />
     </list>
     <ignored path="sobjectbrowser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -162,7 +160,7 @@
           <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="72" selection-start="216" selection-end="216" vertical-scroll-proportion="0.10375494">
+                <state line="7" column="48" selection-start="192" selection-end="192" vertical-scroll-proportion="0.10375494">
                   <folding />
                 </state>
               </provider>
@@ -679,7 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="72" selection-start="216" selection-end="216" vertical-scroll-proportion="0.10375494">
+        <state line="7" column="48" selection-start="192" selection-end="192" vertical-scroll-proportion="0.10375494">
           <folding />
         </state>
       </provider>
