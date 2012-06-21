@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c283ad-45f9-4c2e-845b-b9214e0c50d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/records_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/records_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sobjects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sobjects_controller.rb" />
     </list>
     <ignored path="sobjectbrowser.iws" />
@@ -94,7 +93,7 @@
           <file leaf-file-name="sobjects_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/sobjects_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="97" selection-start="597" selection-end="597" vertical-scroll-proportion="0.23961662">
+                <state line="15" column="63" selection-start="563" selection-end="563" vertical-scroll-proportion="0.23961662">
                   <folding />
                 </state>
               </provider>
@@ -689,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sobjects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="97" selection-start="597" selection-end="597" vertical-scroll-proportion="0.23961662">
+        <state line="15" column="63" selection-start="563" selection-end="563" vertical-scroll-proportion="0.23961662">
           <folding />
         </state>
       </provider>

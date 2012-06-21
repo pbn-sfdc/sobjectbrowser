@@ -13,7 +13,7 @@ class SobjectsController < ApplicationController
     sobject_names.each do |name|
       begin
         klass = dbdc_client.materialize(name)
-        @sobjects << {:name => name, :count => klass.count} if @klass.attributes.include?("Name")
+        @sobjects << {:name => name, :count => klass.count} if klass.attributes.include?("Name")
       rescue Databasedotcom::SalesForceError => e
         logger.warn (e)
       end
