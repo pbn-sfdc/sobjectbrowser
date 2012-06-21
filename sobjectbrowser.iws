@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8c283ad-45f9-4c2e-845b-b9214e0c50d9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/index.html.erb" afterPath="$PROJECT_DIR$/app/views/records/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/show.html.erb" afterPath="$PROJECT_DIR$/app/views/records/show.html.erb" />
     </list>
     <ignored path="sobjectbrowser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +66,7 @@
           <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="26" selection-start="250" selection-end="250" vertical-scroll-proportion="0.06282722">
+                <state line="4" column="69" selection-start="293" selection-end="293" vertical-scroll-proportion="0.06282722">
                   <folding />
                 </state>
               </provider>
@@ -649,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="250" selection-end="250" vertical-scroll-proportion="0.06282722">
+        <state line="4" column="69" selection-start="293" selection-end="293" vertical-scroll-proportion="0.06282722">
           <folding />
         </state>
       </provider>
