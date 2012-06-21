@@ -1,16 +1,5 @@
 
 <form action='<%= sobject_records_path(@parent) %>' method="post">
-    <% if !@errors.nil? %>
-    <div id="error_explanation">
-        <h2><%= pluralize(@errors.length, "error") %> prohibited this record from being saved:</h2>
-
-        <ul>
-            <% @errors.each do |error| %>
-            <li><%= error.message %></li>
-            <% end %>
-        </ul>
-    </div>
-    <% end %>
     <% @updateable_attributes.each do |attr| %>
     <div class="field">
         <%= label_tag(@klass.label_for(attr).to_sym, attr)%>
