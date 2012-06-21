@@ -2,7 +2,7 @@
     <div data-role="header">
         <%= link_to 'SObjects', sobjects_path, "data-icon" => "arrow-l", "class" => "ui-btn-left" %>
         <h1><%= @class_name %></h1>
-        <%= link_to 'Add', new_sobject_record_path, "data-icon" => "plus", "class" => "ui-btn-right" %>
+        <%= link_to_remote 'Add', new_sobject_record_path, "data-icon" => "plus", "class" => "ui-btn-right" %>
     </div>
     <% if @klass.attributes.include?("Name") %>
         <ul data-role="listview" data-theme="g">

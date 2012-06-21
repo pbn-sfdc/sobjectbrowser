@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c283ad-45f9-4c2e-845b-b9214e0c50d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/records_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/records_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/index.html.erb" afterPath="$PROJECT_DIR$/app/views/records/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/show.html.erb" afterPath="$PROJECT_DIR$/app/views/records/show.html.erb" />
     </list>
     <ignored path="sobjectbrowser.iws" />
@@ -64,10 +64,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="40" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.25">
+                <state line="4" column="26" selection-start="250" selection-end="250" vertical-scroll-proportion="0.06282722">
                   <folding />
                 </state>
               </provider>
@@ -109,10 +109,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/records/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="69" selection-start="157" selection-end="157" vertical-scroll-proportion="0.03141361">
+                <state line="9" column="70" selection-start="424" selection-end="424" vertical-scroll-proportion="-5.625">
                   <folding />
                 </state>
               </provider>
@@ -147,9 +147,9 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/records/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/records/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/records/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/records_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/records/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/records/index.html.erb" />
       </list>
     </option>
   </component>
@@ -612,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="89" selection-start="303" selection-end="303" vertical-scroll-proportion="0.13846155">
@@ -649,7 +642,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="69" selection-start="157" selection-end="157" vertical-scroll-proportion="0.03141361">
+        <state line="9" column="70" selection-start="424" selection-end="424" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="250" selection-end="250" vertical-scroll-proportion="0.06282722">
           <folding />
         </state>
       </provider>
